@@ -72,7 +72,7 @@ decidere cosa NON fare
 motivare le scelte
 Se qualcosa non è chiaro, puoi fare assunzioni: esplicitarle è parte della valutazione.
 
-La capacità di prioritizzare e gestire ambiguità è parte centrale della challenge.
+La capacità di priorizzare e gestire ambiguità è parte centrale della challenge.
 
 🚀 Come partecipare
 Fai fork della repository
@@ -177,3 +177,27 @@ L’obiettivo è rendere la valutazione tecnica:
 più aderente al lavoro reale
 meno basata sul CV
 più utile sia per developer che per aziende
+
+## Inizio lavoro ore 0:00 del 12/04/2026
+
+### stack utilizzato
+
+Il progetto che ho inizializzato è basato su Next.js a cui ho applicato anche Tanstack query e Axios per le chiamate API lato client, Zod per la validazione e l'inferimento dei tipi, MUI per avere una libreria UI per implementare meglio l'interfacce.
+
+### cosa ho fatto
+
+- Ho implementato un controllo a mano molto basico del form di aggiunta posts (ci vorrebbe Zod e Rhf) per evitare di inviare dati vacanti.
+- Non avendo un controllo sull'API originaria esterna ho gestito tramite API interne la sovrascrittura o l'update di un file JSON interno per gestire i dati ed averli sempre "freschi".
+- Ho realizzato delle semplici Cards con Material UI per affibbiare loro i dati ottenuti e mostrarli sempre grazie a Tanstack query che li fornisce e li aggiorna in automatico.
+- ho usato Next perché la reputo un'ottima tecnologia quando si ha necessità di controllo e, anche se è soltanto un esercizio, è comunque un modo per tenersi sempre in allenamento.
+- Siccome sono un po pignolo ho impiegato più di 60 minuti (circa 2 ore) per configurare l'ambiente e predisporlo all'esercizio.
+
+### cosa non ho fatto
+
+non ho eseguito nessuno dei task opzionali perché dopo 2 ore ho deciso di fermarmi avendo, secondo me, superato di gran lunga qualsiasi tempo massimo.
+
+### tempo limite
+
+Nel complesso è un ottimo esercizio per mettere a nudo la personalità del professionista e la sua capacità di porsi d'innanzi ad un codice.
+Di certo non si può pretendere che esca fuori un capolavoro di UI e UX in un'ora ma questo non mi sembra rilevante. Diventa invece essenziale sapersi relazionare con i dati e sfruttare ogni conoscenza per avere il controllo totale su di essi e sugli errori che potrebbero scaturire da essi.
+Lascio solo un appunto: 60 minuti per un progetto da inizializzare, configurare e svolgere sono pochi. Ne servo almeno 120 per avere tutto il tempo di svolgere le procedure necessarie per costruire un ambiente di sviluppo solido.
